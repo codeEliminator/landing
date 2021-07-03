@@ -21,3 +21,8 @@
         z-index: 54;
     }
 }
+@media (prefers-reduced-motion: reduce){
+    *{
+        scroll-behavior: auto;
+    }
+}
