@@ -85,7 +85,6 @@
     .slider{
         width: 320px;
     }
-
 }
 @media (max-width:400px){
     footer .content{
@@ -118,5 +117,10 @@
     nav button{
         position: absolute;
         top:110px;
+    }
+}
+@media (max-width: 280px){
+    .slider {
+        width: 240px;
     }
 }
