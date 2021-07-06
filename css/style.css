@@ -1,5 +1,9 @@
 *{
     scroll-behavior: smooth;
+    cursor: url(../img/arrow.png), auto;
+}
+.cursor{
+    cursor: url(../img/link.png), auto;
 }
 body{
     font-family: 'Quivira', sans-serif;
@@ -8,6 +12,15 @@ body{
     overflow-x: hidden;
     transition: 0.5s;
     scroll-behavior: smooth;
+}
+::-webkit-scrollbar { 
+    width: 10px;
+    height: 10px;
+    background-color: #6B6157;
+}
+::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    background-color: #C8B29B;
 }
 .wrapper {
     width: 100vw;
@@ -25,6 +38,7 @@ li{
 a{
     color: white;
     text-decoration: none;
+    cursor: url(../img/link.png), auto;
 }
 h2 {
     font-size: 1.9em;
@@ -149,9 +163,10 @@ button{
     color: white;
     position: relative;
     z-index: 52;
+    cursor: url(../img/link.png), auto;
 }
 div.carousel_controls{
-    cursor:pointer;
+    cursor:default;
     left: 0;
     top: 0;
     z-index: 50;
@@ -194,12 +209,15 @@ div.carousel_controls{
     min-width: 240px;
     box-sizing: border-box;
     padding: 0 5px;
+    cursor: url(../img/link.png), auto;
 }
 .element i {
     font-size: 2.8em;
     margin: 20px 0;
 }
-  
+.element i h2 p{
+    cursor: url(../img/link.png), auto;
+}
 .element h2 {
     font-weight: 500;
     font-size: 1.5em;
@@ -283,6 +301,7 @@ div.carousel_controls{
     font-weight: 545;
     margin: 0 5px 10px;
     border-radius: 2px;
+    cursor: url(../img/link.png), auto;
 }
 .project_controls button:hover {
     border: 1px solid #BEA691;
