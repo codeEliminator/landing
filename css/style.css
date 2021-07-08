@@ -70,6 +70,9 @@ section{
 nav button.menu_button{
     display: none;
 }
+nav button.menu_button:focus{
+    
+}
 .nav_header{
     transition: 0.5s;
 }
@@ -175,9 +178,9 @@ div.carousel_controls{
     display: flex;
     justify-content: space-between;
     align-items: flex-end;
+    cursor: url(../img/arrow.png), auto;
 }
 .slide_button{
-    cursor: pointer;
     width: 100px;
     height: 100px;
     margin: auto 0;
@@ -186,7 +189,6 @@ div.carousel_controls{
     background: transparent;
     outline: none;
 }
-
 .content{
     width: 100%;
     max-width: 1500px;
@@ -261,6 +263,7 @@ div.carousel_controls{
     color: #C6AF95;
 }
 .element:hover span {
+    transition: 0.5s;
     background: #C6AF95;
 }
 .rate {
