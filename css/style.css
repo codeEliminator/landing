@@ -40,6 +40,9 @@ a{
     text-decoration: none;
     cursor: url(../img/link.png), auto;
 }
+.pen{
+    filter: sepia(100%);
+}
 h2 {
     font-size: 1.9em;
 }
@@ -69,9 +72,6 @@ section{
 }
 nav button.menu_button{
     display: none;
-}
-nav button.menu_button:focus{
-    
 }
 .nav_header{
     transition: 0.5s;
