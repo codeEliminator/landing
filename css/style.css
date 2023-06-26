@@ -212,6 +212,7 @@ div.carousel_controls{
     box-sizing: border-box;
     padding: 0 5px;
     cursor: url(../img/link.png), auto;
+    align-items: center;
 }
 .element i {
     font-size: 2.8em;
